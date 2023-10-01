@@ -10,7 +10,573 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet"> 
 </head>
 <body>
-    
+    <main>
+        <div class="sidebar">
+            <div class="sidebar_top">
+                <a href="#" class="box active">
+                    <svg role="img" height="24" width="24" aria-hidden="true"  viewBox="0 0 24 24" data-encore-id="icon"><path d="M13.5 1.515a3 3 0 0 0-3 0L3 5.845a2 2 0 0 0-1 1.732V21a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6h4v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V7.577a2 2 0 0 0-1-1.732l-7.5-4.33z"></path></svg>
+                    <h4>Home</h4>
+                </a>
+                <a href="#" class="box ">
+                    <svg role="img" height="24" width="24" aria-hidden="true" class="Svg-sc-ytk21e-0 haNxPq search-icon" viewBox="0 0 24 24" data-encore-id="icon"><path d="M10.533 1.279c-5.18 0-9.407 4.14-9.407 9.279s4.226 9.279 9.407 9.279c2.234 0 4.29-.77 5.907-2.058l4.353 4.353a1 1 0 1 0 1.414-1.414l-4.344-4.344a9.157 9.157 0 0 0 2.077-5.816c0-5.14-4.226-9.28-9.407-9.28zm-7.407 9.279c0-4.006 3.302-7.28 7.407-7.28s7.407 3.274 7.407 7.28-3.302 7.279-7.407 7.279-7.407-3.273-7.407-7.28z"></path></svg>
+                    <h4>Search</h4>
+                </a>
+            </div>
+            <div class="sidebar_bottom">
+                <div class="sidebar_bottom-top">
+                <div class="sidebar-b-head">
+                    <div class="head-left ">
+                        <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="Svg-sc-ytk21e-0 haNxPq"><path d="M3 22a1 1 0 0 1-1-1V3a1 1 0 0 1 2 0v18a1 1 0 0 1-1 1zM15.5 2.134A1 1 0 0 0 14 3v18a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V6.464a1 1 0 0 0-.5-.866l-6-3.464zM9 2a1 1 0 0 0-1 1v18a1 1 0 1 0 2 0V3a1 1 0 0 0-1-1z"></path></svg>
+                        <h4>Your Library</h4>
+                    </div>
+                    <div class="head-right">
+                        <i class="ri-add-line"></i>
+                        <i class="ri-arrow-right-line"></i>
+                    </div>
+                </div>
+                <div class="sidebar-b-category">
+                    <button class="category_arrow">
+                        <i class="ri-arrow-drop-left-line"></i>
+                    </button>
+                    <div class="category_container">
+                        <div class="category_content">
+                            <button class="category">Playlists</button>
+                            <button class="category">Artists</button>
+                            <button class="category">Albums</button>
+                            <button class="category">Podcast & Shows</button>
+                        </div>
+                        </div>
+                    <button class="category_arrow">
+                        <i class="ri-arrow-drop-right-line"></i>
+                    </button>
+                </div>
+                <div class="sidebar-b-search-sort">
+                    <div class="sidebar-search-box">
+                        <i class="ri-search-line sidebar-search-icon "></i>
+                        <input type="text" name="searchbar" placeholder="Search in Your Library">
+                    </div>
+                    <div class="sidebar-sort">
+                        <button><span>Recents</span> <i class="ri-arrow-down-s-fill"></i>
+                            <div class="sort-sub">
+                                <h5>Sort by</h5>
+                                <ul>
+                                    <li class="active">Recents</li>
+                                    <li>Recently Added</li>
+                                    <li>Alphabetical</li>
+                                    <li>Creator</li>
+                                </ul>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                </div>
+
+                <div class="sidebar_content">
+                    <button class="box">
+                        <div class="left">
+                            <img src="./Images/Sidebar/liked-songs-img.png" alt="image">
+                        </div>
+                        <div class="right">
+                            <h4>Liked Songs</h4>
+                            <p>Playlist  <span class="dot"></span>  27 songs</p>
+                        </div>
+                    </button>
+                    <button class="box">
+                        <div class="left">
+                            <img src="./Images/Sidebar/saved.png" alt="image">
+                        </div>
+                        <div class="right">
+                            <h4>Your Episodes</h4>
+                            <p>Saved & downloaded episodes</p>
+                        </div>
+                    </button>
+                    <button class="box">
+                        <div class="left">
+                            <img src="./Images/Sidebar/david.jpeg" class="rounded" alt="image">
+                        </div>
+                        <div class="right">
+                            <h4>David Kushner</h4>
+                            <p>Artist</p>
+                        </div>
+                    </button>
+                    <button class="box">
+                        <div class="left">
+                            <img src="./Images/Sidebar/daily-mix-1.jpeg" alt="image">
+                        </div>
+                        <div class="right">
+                            <h4>Daily Mix 1</h4>
+                            <p>Playlist <span class="dot"></span> Spotify</p>
+                        </div>
+                    </button>
+                    <button class="box">
+                        <div class="left">
+                            <img src="./Images/Sidebar/daily-mix-2.jpeg" alt="image">
+                        </div>
+                        <div class="right">
+                            <h4>Daily Mix 2</h4>
+                            <p>Playlist  <span class="dot"></span> Spotify</p>
+                        </div>
+                    </button>
+                    <button class="box">
+                        <div class="left">
+                            <img src="./Images/Sidebar/playlist-1.jpeg" alt="image">
+                        </div>
+                        <div class="right">
+                            <h4>brady - Crossed</h4>
+                            <p>Playlist  <span class="dot"></span> Members Media</p>
+                        </div>
+                    </button>
+                    <button class="box">
+                        <div class="left">
+                            <img src="./Images/Sidebar/liked-songs-img.png" alt="image">
+                        </div>
+                        <div class="right">
+                            <h4>Liked Songs</h4>
+                            <p>Playlist  <span class="dot"></span>  27 songs</p>
+                        </div>
+                    </button>
+                    <button class="box">
+                        <div class="left">
+                            <img src="./Images/Sidebar/liked-songs-img.png" alt="image">
+                        </div>
+                        <div class="right">
+                            <h4>Liked Songs</h4>
+                            <p>Playlist  <span class="dot"></span>  27 songs</p>
+                        </div>
+                    </button>
+                    <button class="box">
+                        <div class="left">
+                            <img src="./Images/Sidebar/liked-songs-img.png" alt="image">
+                        </div>
+                        <div class="right">
+                            <h4>Liked Songs</h4>
+                            <p>Playlist  <span class="dot"></span>  27 songs</p>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- -----------------END OF SIDEBAR-------------------- -->
+
+        <!-- -----------------MAIN CONTENT-------------------- -->
+        <section class="main_container">
+
+            <div class="main">
+                <div class="main_content">                
+                    <div class="main-head-1 ">
+                        <div class="arrow-btns">
+                            <span class="svg_container"><svg role="img" height="16" width="16" aria-hidden="true" class="Svg-sc-ytk21e-0 leya-dW IYDlXmBmmUKHveMzIPCF" viewBox="0 0 16 16" data-encore-id="icon"><path d="M11.03.47a.75.75 0 0 1 0 1.06L4.56 8l6.47 6.47a.75.75 0 1 1-1.06 1.06L2.44 8 9.97.47a.75.75 0 0 1 1.06 0z"></path></svg></span>
+                            <span class="svg_container"><svg role="img" height="16" width="16" aria-hidden="true" class="Svg-sc-ytk21e-0 leya-dW IYDlXmBmmUKHveMzIPCF" viewBox="0 0 16 16" data-encore-id="icon"><path d="M4.97.47a.75.75 0 0 0 0 1.06L11.44 8l-6.47 6.47a.75.75 0 1 0 1.06 1.06L13.56 8 6.03.47a.75.75 0 0 0-1.06 0z"></path></svg></span>
+                        </div>
+                        
+                        <div class="right">
+                            <button class="btn-premium">Explore Premium</button>
+                            <button class="btn-install"><span><svg role="img" height="16" width="16" aria-hidden="true" viewBox="0 0 16 16" data-encore-id="icon" class="Svg-sc-ytk21e-0 haNxPq"><path d="M4.995 8.745a.75.75 0 0 1 1.06 0L7.25 9.939V4a.75.75 0 0 1 1.5 0v5.94l1.195-1.195a.75.75 0 1 1 1.06 1.06L8 12.811l-.528-.528a.945.945 0 0 1-.005-.005L4.995 9.805a.75.75 0 0 1 0-1.06z"></path><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13z"></path></svg></span>Install App</button>
+                            <span class="svg_container">
+                                <svg role="img" height="16" width="16" aria-hidden="true" class="Svg-sc-ytk21e-0 haNxPq t93PZphItuM19kPhX7tC" viewBox="0 0 16 16" data-encore-id="icon"><path d="M8 1.5a4 4 0 0 0-4 4v3.27a.75.75 0 0 1-.1.373L2.255 12h11.49L12.1 9.142a.75.75 0 0 1-.1-.374V5.5a4 4 0 0 0-4-4zm-5.5 4a5.5 5.5 0 0 1 11 0v3.067l2.193 3.809a.75.75 0 0 1-.65 1.124H10.5a2.5 2.5 0 0 1-5 0H.957a.75.75 0 0 1-.65-1.124L2.5 8.569V5.5zm4.5 8a1 1 0 1 0 2 0H7z"></path></svg>
+                            </span>
+                            <span class="svg_container">
+                            <svg role="img" height="16" width="16" aria-hidden="true" data-testid="user-icon" viewBox="0 0 16 16" data-encore-id="icon" class="Svg-sc-ytk21e-0 haNxPq"><path d="M6.233.371a4.388 4.388 0 0 1 5.002 1.052c.421.459.713.992.904 1.554.143.421.263 1.173.22 1.894-.078 1.322-.638 2.408-1.399 3.316l-.127.152a.75.75 0 0 0 .201 1.13l2.209 1.275a4.75 4.75 0 0 1 2.375 4.114V16H.382v-1.143a4.75 4.75 0 0 1 2.375-4.113l2.209-1.275a.75.75 0 0 0 .201-1.13l-.126-.152c-.761-.908-1.322-1.994-1.4-3.316-.043-.721.077-1.473.22-1.894a4.346 4.346 0 0 1 .904-1.554c.411-.448.91-.807 1.468-1.052zM8 1.5a2.888 2.888 0 0 0-2.13.937 2.85 2.85 0 0 0-.588 1.022c-.077.226-.175.783-.143 1.323.054.921.44 1.712 1.051 2.442l.002.001.127.153a2.25 2.25 0 0 1-.603 3.39l-2.209 1.275A3.25 3.25 0 0 0 1.902 14.5h12.196a3.25 3.25 0 0 0-1.605-2.457l-2.209-1.275a2.25 2.25 0 0 1-.603-3.39l.127-.153.002-.001c.612-.73.997-1.52 1.052-2.442.032-.54-.067-1.097-.144-1.323a2.85 2.85 0 0 0-.588-1.022A2.888 2.888 0 0 0 8 1.5z"></path></svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="main-head">
+                <div class="main-head-2">
+                    <h2 class="greetings">Good evening</h2>
+                    <div class="recent_boxes">
+                        <div class="box">
+                            <img src="./Images/Sidebar/liked-songs-img.png" alt="">
+                            <h3>Liked Songs</h3>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="box">
+                            <img src="./Images/Sidebar/daily-mix-1.jpeg" alt="">
+                            <h3>Daily Mix 1</h3>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="box">
+                            <img src="./Images/Sidebar/playlist-1.jpeg" alt="">
+                            <h3>brady - Crossed</h3>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="box">
+                            <img src="./Images/Sidebar/daily-mix-2.jpeg" alt="">
+                            <h3>Daily Mix 2</h3>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="box">
+                            <img src="./Images/Sidebar/playlist-2.jpeg" alt="">
+                            <h3>Morning Mood 2023</h3>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="box">
+                            <img src="./Images/Sidebar/playlist-3.jpeg" alt="">
+                            <h3>Trail Mix</h3>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-bottom">
+                <div class="bottom-1 bottom">
+                    <div class="bottom-head">
+                        <h2>Made For You</h2>
+                        <a href="#">Show all</a>
+                    </div>
+                    <div class="bottom-boxes">
+                        <div class="box">
+                            <img src="./Images/Sidebar/daily-mix-3.jpeg" alt="poster">
+                            <h3>Daily Mix 3</h3>
+                            <p>Chance Peoa, Suriel Hess, Nessa Barrett and more</p>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="box">
+                            <img src="./Images/Sidebar/daily-mix-1.jpeg" alt="poster">
+                            <h3>Daily Mix 1</h3>
+                            <p>Chance Peoa, Suriel Hess, Nessa Barrett and more</p>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="box">
+                            <img src="./Images/Sidebar/daily-mix-2.jpeg" alt="poster">
+                            <h3>Daily Mix 2</h3>
+                            <p>Chance Peoa, Suriel Hess, Nessa Barrett and more</p>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="box">
+                            <img src="./Images/Sidebar/playlist-3.jpeg" alt="poster">
+                            <h3>Daily Mix 3</h3>
+                            <p>Chance Peoa, Suriel Hess, Nessa Barrett and more</p>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="box">
+                            <img src="./Images/Sidebar/playlist-3.jpeg" alt="poster">
+                            <h3>Daily Mix 3</h3>
+                            <p>Chance Peoa, Suriel Hess, Nessa Barrett and more</p>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-1 bottom">
+                    <div class="bottom-head">
+                        <h2>Made For You</h2>
+                        <a href="#">Show all</a>
+                    </div>
+                    <div class="bottom-boxes">
+                        <div class="box">
+                            <img src="./Images/Sidebar/daily-mix-3.jpeg" alt="poster">
+                            <h3>Daily Mix 3</h3>
+                            <p>Chance Peoa, Suriel Hess, Nessa Barrett and more</p>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="box">
+                            <img src="./Images/Sidebar/daily-mix-1.jpeg" alt="poster">
+                            <h3>Daily Mix 1</h3>
+                            <p>Chance Peoa, Suriel Hess, Nessa Barrett and more</p>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="box">
+                            <img src="./Images/Sidebar/daily-mix-2.jpeg" alt="poster">
+                            <h3>Daily Mix 2</h3>
+                            <p>Chance Peoa, Suriel Hess, Nessa Barrett and more</p>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="box">
+                            <img src="./Images/Sidebar/playlist-3.jpeg" alt="poster">
+                            <h3>Daily Mix 3</h3>
+                            <p>Chance Peoa, Suriel Hess, Nessa Barrett and more</p>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="box">
+                            <img src="./Images/Sidebar/playlist-3.jpeg" alt="poster">
+                            <h3>Daily Mix 3</h3>
+                            <p>Chance Peoa, Suriel Hess, Nessa Barrett and more</p>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-1 bottom">
+                    <div class="bottom-head">
+                        <h2>Made For You</h2>
+                        <a href="#">Show all</a>
+                    </div>
+                    <div class="bottom-boxes">
+                        <div class="box">
+                            <img src="./Images/Sidebar/daily-mix-3.jpeg" alt="poster">
+                            <h3>Daily Mix 3</h3>
+                            <p>Chance Peoa, Suriel Hess, Nessa Barrett and more</p>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="box">
+                            <img src="./Images/Sidebar/daily-mix-1.jpeg" alt="poster">
+                            <h3>Daily Mix 1</h3>
+                            <p>Chance Peoa, Suriel Hess, Nessa Barrett and more</p>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="box">
+                            <img src="./Images/Sidebar/daily-mix-2.jpeg" alt="poster">
+                            <h3>Daily Mix 2</h3>
+                            <p>Chance Peoa, Suriel Hess, Nessa Barrett and more</p>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="box">
+                            <img src="./Images/Sidebar/playlist-3.jpeg" alt="poster">
+                            <h3>Daily Mix 3</h3>
+                            <p>Chance Peoa, Suriel Hess, Nessa Barrett and more</p>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="box">
+                            <img src="./Images/Sidebar/playlist-3.jpeg" alt="poster">
+                            <h3>Daily Mix 3</h3>
+                            <p>Chance Peoa, Suriel Hess, Nessa Barrett and more</p>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-1 bottom">
+                    <div class="bottom-head">
+                        <h2>Made For You</h2>
+                        <a href="#">Show all</a>
+                    </div>
+                    <div class="bottom-boxes">
+                        <div class="box">
+                            <img src="./Images/Sidebar/daily-mix-3.jpeg" alt="poster">
+                            <h3>Daily Mix 3</h3>
+                            <p>Chance Peoa, Suriel Hess, Nessa Barrett and more</p>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="box">
+                            <img src="./Images/Sidebar/daily-mix-1.jpeg" alt="poster">
+                            <h3>Daily Mix 1</h3>
+                            <p>Chance Peoa, Suriel Hess, Nessa Barrett and more</p>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="box">
+                            <img src="./Images/Sidebar/daily-mix-2.jpeg" alt="poster">
+                            <h3>Daily Mix 2</h3>
+                            <p>Chance Peoa, Suriel Hess, Nessa Barrett and more</p>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="box">
+                            <img src="./Images/Sidebar/playlist-3.jpeg" alt="poster">
+                            <h3>Daily Mix 3</h3>
+                            <p>Chance Peoa, Suriel Hess, Nessa Barrett and more</p>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="box">
+                            <img src="./Images/Sidebar/playlist-3.jpeg" alt="poster">
+                            <h3>Daily Mix 3</h3>
+                            <p>Chance Peoa, Suriel Hess, Nessa Barrett and more</p>
+                            <button class="box-btn ">
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-play"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                                <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="box-btn-pause"><path d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- -----------------FOOTER-------------------- -->
+        <footer>
+            <div class="f-top">
+                <div class="left">
+                    <ul>
+                        <li>Company</li>
+                        <li><a href="#">About </a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">For the Record</a></li>
+                    </ul>
+                    <ul>
+                        <li>Communities</li>
+                        <li><a href="#">For Artists</a></li>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">Vendors</a></li>
+                    </ul>
+                    <ul>
+                        <li>Useful links</li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Free Mobile App</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <a href="#">
+                        <svg role="img" height="16" width="16" aria-hidden="true" viewBox="0 0 16 16" data-encore-id="icon" class="Svg-sc-ytk21e-0 hOjEcl"><path d="M8 1.44c2.136 0 2.389.009 3.233.047.78.036 1.203.166 1.485.276.348.128.663.332.921.598.266.258.47.573.599.921.11.282.24.706.275 1.485.039.844.047 1.097.047 3.233s-.008 2.389-.047 3.232c-.035.78-.166 1.204-.275 1.486a2.654 2.654 0 01-1.518 1.518c-.282.11-.706.24-1.486.275-.843.039-1.097.047-3.233.047s-2.39-.008-3.232-.047c-.78-.035-1.204-.165-1.486-.275a2.477 2.477 0 01-.921-.599 2.477 2.477 0 01-.599-.92c-.11-.282-.24-.706-.275-1.486-.038-.844-.047-1.096-.047-3.232s.009-2.39.047-3.233c.036-.78.166-1.203.275-1.485.129-.348.333-.663.599-.921a2.49 2.49 0 01.92-.599c.283-.11.707-.24 1.487-.275.843-.038 1.096-.047 3.232-.047L8 1.441zm.001-1.442c-2.172 0-2.445.01-3.298.048-.854.04-1.435.176-1.943.373a3.928 3.928 0 00-1.417.923c-.407.4-.722.883-.923 1.417-.198.508-.333 1.09-.372 1.942C.01 5.552 0 5.826 0 8c0 2.172.01 2.445.048 3.298.04.853.174 1.433.372 1.941.2.534.516 1.017.923 1.417.4.407.883.722 1.417.923.508.198 1.09.333 1.942.372.852.039 1.126.048 3.299.048 2.172 0 2.445-.01 3.298-.048.853-.04 1.433-.174 1.94-.372a4.087 4.087 0 002.34-2.34c.199-.508.334-1.09.373-1.942.039-.851.048-1.125.048-3.298s-.01-2.445-.048-3.298c-.04-.853-.174-1.433-.372-1.94a3.924 3.924 0 00-.923-1.418A3.928 3.928 0 0013.24.42c-.508-.197-1.09-.333-1.942-.371-.851-.041-1.125-.05-3.298-.05l.001-.001z"></path><path d="M8 3.892a4.108 4.108 0 100 8.216 4.108 4.108 0 000-8.216zm0 6.775a2.668 2.668 0 110-5.335 2.668 2.668 0 010 5.335zm4.27-5.978a.96.96 0 100-1.92.96.96 0 000 1.92z"></path></svg>
+                    </a>
+                    <a href="#">
+                        <svg role="img" height="16" width="16" aria-hidden="true" viewBox="0 0 16 16" data-encore-id="icon" class="Svg-sc-ytk21e-0 hOjEcl"><path d="M13.54 3.889a2.968 2.968 0 001.333-1.683 5.937 5.937 0 01-1.929.738 2.992 2.992 0 00-.996-.706 2.98 2.98 0 00-1.218-.254 2.92 2.92 0 00-2.143.889 2.929 2.929 0 00-.889 2.15c0 .212.027.442.08.691a8.475 8.475 0 01-3.484-.932A8.536 8.536 0 011.532 2.54a2.993 2.993 0 00-.413 1.523c0 .519.12 1 .361 1.445.24.445.57.805.988 1.08a2.873 2.873 0 01-1.373-.374v.04c0 .725.23 1.365.69 1.92a2.97 2.97 0 001.739 1.048 2.937 2.937 0 01-1.365.056 2.94 2.94 0 001.063 1.5 2.945 2.945 0 001.77.603 5.944 5.944 0 01-3.77 1.302c-.243 0-.484-.016-.722-.048A8.414 8.414 0 005.15 14c.905 0 1.763-.12 2.572-.361.81-.24 1.526-.57 2.147-.988a9.044 9.044 0 001.683-1.46c.5-.556.911-1.155 1.234-1.798a9.532 9.532 0 00.738-1.988 8.417 8.417 0 00.246-2.429 6.177 6.177 0 001.508-1.563c-.56.249-1.14.407-1.738.476z"></path></svg>
+                    </a>
+                    <a href="#">
+                        <svg role="img" height="16" width="16" aria-hidden="true" viewBox="0 0 16 16" data-encore-id="icon" class="Svg-sc-ytk21e-0 haNxPq"><path d="M16 8a8 8 0 10-9.25 7.903v-5.59H4.719V8H6.75V6.237c0-2.005 1.194-3.112 3.022-3.112.875 0 1.79.156 1.79.156V5.25h-1.008c-.994 0-1.304.617-1.304 1.25V8h2.219l-.355 2.313H9.25v5.59A8.002 8.002 0 0016 8z"></path></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="f-bottom">
+                <ul>
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="#">Privacy Center</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookies</a></li>
+                    <li><a href="#">About Ads</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                </ul>
+                <p>&copy; 2023 Spotify AB</p>
+            </div>
+        </footer>
+        <!-- -----------------END OF FOOTER-------------------- -->
+            </div>
+        </div>
+    </section>
+        <!-- -----------------END OF MAIN CONTENT-------------------- -->
+
+        <!-- -----------------MUSIC PLAYER-------------------- -->        
+        <div class="player_container">
+            <div class="song_details">
+                <div class="img">
+                    <img src="./Images/daylight.webp" alt="Song Poster">
+                </div>
+                <div class="content">
+                    <h4 class="name">Daylight</h4>
+                    <p class="artist">David Kushner</p>
+                </div>
+                <button class="like-btn ">
+                    <svg role="img" height="16" width="16" aria-hidden="true" viewBox="0 0 16 16" data-encore-id="icon" class="line-heart"><path d="M1.69 2A4.582 4.582 0 0 1 8 2.023 4.583 4.583 0 0 1 11.88.817h.002a4.618 4.618 0 0 1 3.782 3.65v.003a4.543 4.543 0 0 1-1.011 3.84L9.35 14.629a1.765 1.765 0 0 1-2.093.464 1.762 1.762 0 0 1-.605-.463L1.348 8.309A4.582 4.582 0 0 1 1.689 2zm3.158.252A3.082 3.082 0 0 0 2.49 7.337l.005.005L7.8 13.664a.264.264 0 0 0 .311.069.262.262 0 0 0 .09-.069l5.312-6.33a3.043 3.043 0 0 0 .68-2.573 3.118 3.118 0 0 0-2.551-2.463 3.079 3.079 0 0 0-2.612.816l-.007.007a1.501 1.501 0 0 1-2.045 0l-.009-.008a3.082 3.082 0 0 0-2.121-.861z"></path></svg>
+
+                    <svg role="img" height="16" width="16" aria-hidden="true" viewBox="0 0 16 16" data-encore-id="icon" class="bg-heart"><path d="M15.724 4.22A4.313 4.313 0 0 0 12.192.814a4.269 4.269 0 0 0-3.622 1.13.837.837 0 0 1-1.14 0 4.272 4.272 0 0 0-6.21 5.855l5.916 7.05a1.128 1.128 0 0 0 1.727 0l5.916-7.05a4.228 4.228 0 0 0 .945-3.577z"></path></svg>
+                </button>
+            </div>
+            <div class="player">
+                <div class="top">
+                    <i class="ri-shuffle-fill"></i>
+                    <div class="controls">
+                        <i class="ri-skip-back-fill previous-btn"></i>
+                        <div class="play-pause  ">
+                            <i class="ri-play-fill pause"></i>
+                            <img src="./Images/pause-btn.png " class="play" alt="">
+                        </div>
+                        <i class="ri-skip-forward-fill next-btn"></i>
+                    </div>
+                    <i class="ri-loop-right-line"></i>
+                </div>
+                <div class="bottom">
+                    <p class="start-time">0:00</p>
+                    <div class="progress-bar">
+                        <input type="range" name="progress" min="0" max="200" value="0">
+                    </div>
+                    <p class="end-time">3:33</p>
+                </div>
+            </div>
+            <div class="extras">
+                <div class="box">
+                    <p>Now Playing View</p>
+                    <svg role="img" height="16" width="16" aria-hidden="true" viewBox="0 0 16 16" data-encore-id="icon" class="Svg-sc-ytk21e-0 haNxPq"><path d="M11.196 8 6 5v6l5.196-3z"></path><path d="M15.002 1.75A1.75 1.75 0 0 0 13.252 0h-10.5a1.75 1.75 0 0 0-1.75 1.75v12.5c0 .966.783 1.75 1.75 1.75h10.5a1.75 1.75 0 0 0 1.75-1.75V1.75zm-1.75-.25a.25.25 0 0 1 .25.25v12.5a.25.25 0 0 1-.25.25h-10.5a.25.25 0 0 1-.25-.25V1.75a.25.25 0 0 1 .25-.25h10.5z"></path></svg>
+                </div>
+                <div class="box">    
+                    <p>Lyrics</p>
+
+                    <svg role="img" height="16" width="16" aria-hidden="true" viewBox="0 0 16 16" data-encore-id="icon" class="Svg-sc-ytk21e-0 haNxPq"><path d="M13.426 2.574a2.831 2.831 0 0 0-4.797 1.55l3.247 3.247a2.831 2.831 0 0 0 1.55-4.797zM10.5 8.118l-2.619-2.62A63303.13 63303.13 0 0 0 4.74 9.075L2.065 12.12a1.287 1.287 0 0 0 1.816 1.816l3.06-2.688 3.56-3.129zM7.12 4.094a4.331 4.331 0 1 1 4.786 4.786l-3.974 3.493-3.06 2.689a2.787 2.787 0 0 1-3.933-3.933l2.676-3.045 3.505-3.99z"></path></svg>
+                </div>
+                <div class="box">
+                    <p>Queue</p>
+                    <svg role="img" height="16" width="16" aria-hidden="true" viewBox="0 0 16 16" data-encore-id="icon" class="Svg-sc-ytk21e-0 haNxPq"><path d="M15 15H1v-1.5h14V15zm0-4.5H1V9h14v1.5zm-14-7A2.5 2.5 0 0 1 3.5 1h9a2.5 2.5 0 0 1 0 5h-9A2.5 2.5 0 0 1 1 3.5zm2.5-1a1 1 0 0 0 0 2h9a1 1 0 1 0 0-2h-9z"></path></svg>
+                </div>
+                <div class="box">
+                    <p>Connect to a device</p>
+                    <svg role="presentation" height="16" width="16" aria-hidden="true" class="Svg-sc-ytk21e-0 haNxPq" viewBox="0 0 16 16" data-encore-id="icon"><path d="M6 2.75C6 1.784 6.784 1 7.75 1h6.5c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 14.25 15h-6.5A1.75 1.75 0 0 1 6 13.25V2.75zm1.75-.25a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h6.5a.25.25 0 0 0 .25-.25V2.75a.25.25 0 0 0-.25-.25h-6.5zm-6 0a.25.25 0 0 0-.25.25v6.5c0 .138.112.25.25.25H4V11H1.75A1.75 1.75 0 0 1 0 9.25v-6.5C0 1.784.784 1 1.75 1H4v1.5H1.75zM4 15H2v-1.5h2V15z"></path><path d="M13 10a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm-1-5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"></path></svg>
+                </div>
+                <div class="box">
+                    <p>Mute</p>
+                    <svg role="presentation" height="16" width="16" aria-hidden="true" aria-label="Volume high" id="volume-icon" viewBox="0 0 16 16" data-encore-id="icon" class="Svg-sc-ytk21e-0 haNxPq"><path d="M9.741.85a.75.75 0 0 1 .375.65v13a.75.75 0 0 1-1.125.65l-6.925-4a3.642 3.642 0 0 1-1.33-4.967 3.639 3.639 0 0 1 1.33-1.332l6.925-4a.75.75 0 0 1 .75 0zm-6.924 5.3a2.139 2.139 0 0 0 0 3.7l5.8 3.35V2.8l-5.8 3.35zm8.683 4.29V5.56a2.75 2.75 0 0 1 0 4.88z"></path><path d="M11.5 13.614a5.752 5.752 0 0 0 0-11.228v1.55a4.252 4.252 0 0 1 0 8.127v1.55z"></path></svg>
+                    <div class="volume_bar">
+                        <input type="range" name="progress" min="0" max="100" value="70">
+                    </div>
+                </div>
+                <div class="box">
+                    <p>Picture in picture</p>
+                    <svg role="img" height="16" width="16" aria-hidden="true" viewBox="0 0 16 16" data-encore-id="icon" class="Svg-sc-ytk21e-0 haNxPq"><path d="M16 2.45c0-.8-.65-1.45-1.45-1.45H1.45C.65 1 0 1.65 0 2.45v11.1C0 14.35.65 15 1.45 15h5.557v-1.5H1.5v-11h13V7H16V2.45z"></path><path d="M15.25 9.007a.75.75 0 0 1 .75.75v4.493a.75.75 0 0 1-.75.75H9.325a.75.75 0 0 1-.75-.75V9.757a.75.75 0 0 1 .75-.75h5.925z"></path></svg>
+                </div>
+            </div>
+        </div>
+        <!-- -----------------END OF MUSIC PLAYER-------------------- -->
+
+
+       
+
+    </main>
 
 
     <script src="app.js"></script>
